@@ -1,6 +1,6 @@
 # My Portfolio
 
-## Made Using Next.js, Tailwind, and Framer-motion. (test)
+## Made Using Next.js, Tailwind, and Framer-motion.
 
-### Still working on profile picture, different viewports, and optimization.
+### Still working on profile picture.
 
