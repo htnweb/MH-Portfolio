@@ -3,7 +3,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
-import profilePic from "../../public/images/profile/Temp Profile.png";
+import profilePic from "../../public/images/profile/Profile_pic.png";
 import AnimatedTitle from '@/components/AnimatedTitle'
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -18,12 +18,12 @@ const about = () => {
         <main className='flex w-full flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
 
-            <AnimatedTitle text="About Me" className=' mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
+            <AnimatedTitle text="About Me" className=' mb-16 mt-10 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
             <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                 <div className='col-span-5 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 lg:col-span-8 lg:order-2 lg:items-center'>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>An Introduction</h2>
                         
-                        <p className='font-medium'> Hello! I&#39;m Matt , an aspiring web developer transitioning from a 20-year career in the manufacturing business. At 38, I&#39;m embarking on an exciting new journey into the dynamic world of web development.</p>
+                        <p className='font-medium'> Hello! I&#39;m Matt , an aspiring web developer transitioning from a 20-year career in the manufacturing business. I&#39;m embarking on an exciting new journey into the dynamic world of web development.</p>
 
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 mt-4 dark:text-light/75'>My Background</h2>
 

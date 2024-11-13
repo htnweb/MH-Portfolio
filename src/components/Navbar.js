@@ -5,6 +5,9 @@ import Logo from './Logo';
 import {TwitterIcon, DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, SunIcon, MoonIcon } from './Icons';
 import { motion } from 'framer-motion';
 import useThemeSwitcher from '../components/Hooks/useThemeSwitcher';
+import Image from 'next/image';
+import AWS from '../../public/images/certificates/AWS.png';
+import Azure from '../../public/images/certificates/Azure.png';
 
 const CustomLink = ({href, title, className = "" }) => {
     const router = useRouter();
@@ -77,14 +80,6 @@ const NavBar = () => {
             
             <nav className='flex items-center justify-center flex-wrap'>
 
-                <motion.a href="https://twitter.com" title='Twitter' target={"_blank"}
-                whileHover={{scale:1.2}}
-                whileTap={{scale:0.9}}
-                className='w-6 mr-3'
-                >
-                 <TwitterIcon />
-                </motion.a>
-
                 <motion.a href="https://github.com/htnweb" title='GitHub' target={"_blank"}
                 whileHover={{scale:1.2}}
                 whileTap={{scale:0.9}}
@@ -93,7 +88,7 @@ const NavBar = () => {
 
                 </motion.a>
 
-                <motion.a href="https://www.linkedin.com/?trk=guest_homepage-jobseeker_nav-header-logo" title='LinkedIn' target={"_blank"}
+                <motion.a href="https://www.linkedin.com/in/matt-hutton-358930337/" title='LinkedIn' target={"_blank"}
                 whileHover={{scale:1.2}}
                 whileTap={{scale:0.9}}
                 className='w-6 mx-3'
@@ -130,14 +125,6 @@ const NavBar = () => {
             
             <nav className='flex items-center justify-center flex-wrap m-2'>
 
-                <motion.a href="https://twitter.com" title='Twitter' target={"_blank"}
-                whileHover={{scale:1.2}}
-                whileTap={{scale:0.9}}
-                className='w-6 mr-3 sm:mx-1'
-                >
-                 <TwitterIcon />
-                </motion.a>
-
                 <motion.a href="https://github.com/htnweb" title='GitHub' target={"_blank"}
                 whileHover={{scale:1.2}}
                 whileTap={{scale:0.9}}
@@ -146,7 +133,7 @@ const NavBar = () => {
 
                 </motion.a>
 
-                <motion.a href="https://www.linkedin.com/?trk=guest_homepage-jobseeker_nav-header-logo" title='LinkedIn' target={"_blank"}
+                <motion.a href="https://www.linkedin.com/in/matt-hutton-358930337/" title='LinkedIn' target={"_blank"}
                 whileHover={{scale:1.2}}
                 whileTap={{scale:0.9}}
                 className='w-6 mx-3 sm:mx-1'
@@ -173,6 +160,12 @@ const NavBar = () => {
 
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
                 <Logo />
+            </div>
+            <div className='flex items-center justify-center absolute left-[5%] top-24 w-1/12 h-auto mr-5'>
+              <Image src={AWS} alt='AWS Badge'/>
+            </div>
+            <div className='items-center justify-center absolute left-[12%]  top-24 w-1/12 h-auto ml-5'>
+                <Image src={Azure} alt='Azure Badge'/>
             </div>
         </header>
     )

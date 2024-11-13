@@ -23,8 +23,8 @@ const certificates = () => {
         <TransitionEffect />
         <main className='flex w-full flex-col items-center justify-center'>
         <Layout>
-        <AnimatedTitle text="Certificates of Completion" className='mb-10 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
-        <div className='grid w-full grid-cols-2 gap-4 mt-2 md:grid-cols-1'>
+        <AnimatedTitle text="Certificates of Completion" className='mb-10 mt-10 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
+        <div className='grid w-full grid-cols-3 gap-4 mt-2 md:grid-cols-1'>
             <Image src={html} alt="Matt Hutton html" className='w-full h-full' />
             <Image src={css} alt="Matt Hutton css" className='w-full h-full' />
             <Image src={python} alt="Matt Hutton python" className='w-full h-full' />
