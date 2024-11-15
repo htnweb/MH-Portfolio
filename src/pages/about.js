@@ -35,7 +35,7 @@ const about = () => {
 
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 mt-4 dark:text-light/75'>What I Offer</h2>
 
-                        <p className='font-medium'>Transitioning to web development allows me to leverage my background in manufacturing while diving into new technologies and methodologies. I bring a unique perspective, combining practical experience with a fresh enthusiasm for digital solutions. My goal is to create efficient, effective, and elegant web applications that solve real-world problems and enhance user experiences.</p>
+                        <p className='font-medium'>A conscientious, collaborative, and dedicated Web & Software Development professional with expertise in HTML, CSS, JavaScript, Python, AWS, and GitHub. Experienced in building responsive websites, ensuring optimal performance, and maintaining high-quality code. Proficient in front-end web design, including creating responsive layouts. With a strong background in heavy plant operation and construction, bringing problem-solving skills, attention to detail, and a collaborative work ethic. Committed to delivering exceptional service and continuous professional development, seeking to contribute expertise to a progressive company that values growth and integrity</p>
 
 
                 
