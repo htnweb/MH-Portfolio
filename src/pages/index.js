@@ -36,9 +36,8 @@ export default function Home() {
                 This newfound interest drives me to explore the intricacies of coding, design, and user experience, transforming ideas into engaging digital realities.
                  Eager to dive deeper, I am committed to expanding my knowledge and skills in this dynamic field, excited by the constant learning and innovation it demands.</p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/Matt Hutton - CV Draft.pdf" target={'_blank'} className='flex items-center bg-dark text-light p-2 px-6 rounded-lg text-lg font-semibold
-                 hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base'download={true}>CV
-                <LinkArrow className={"w-auto h-auto ml-4"}/>
+                <Link href="/Contact Information.png" target={'_blank'} className='flex items-center bg-dark text-light p-2 px-4 rounded-lg text-lg font-semibold
+                 hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base'download={false}>CV Available Upon Request
                 </Link>
                 <Link href="mailto:matthutton@hotmail.co.uk" target={'_blank'}
                 className='px-2 ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'>Contact</Link>
