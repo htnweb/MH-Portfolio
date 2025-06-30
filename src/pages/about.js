@@ -23,19 +23,20 @@ const about = () => {
                 <div className='col-span-5 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 lg:col-span-8 lg:order-2 lg:items-center'>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>An Introduction</h2>
                         
-                        <p className='font-medium'> Hello! I&#39;m Matt , an aspiring web developer transitioning from a 20-year career in the manufacturing business. I&#39;m embarking on an exciting new journey into the dynamic world of web development.</p>
+                        <p className='font-medium'> Hi, I&#39;m Matt, a certified IT support professional and aspiring web developer, transitioning from a 20-year career in manufacturing.
+I&#39;ve recently earned certifications in CompTIA A+, AWS Cloud Practitioner, and Microsoft Azure Fundamentals, and gained hands-on experience in both tech support and web development. I enjoy solving problems, learning new skills, and helping people get the most out of technology. Now, I&#39;m excited to start the next chapter of my career in the IT and web development world.</p>
 
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 mt-4 dark:text-light/75'>My Background</h2>
 
-                        <p className='font-medium '>For the past two decades, I honed my skills in manufacturing, mastering the intricacies of the industry and learning the value of precision, problem-solving, and teamwork. This experience gave me a strong foundation in systematic thinking and a meticulous eye for detail, qualities that I now bring to my work in web development. </p>
+                        <p className='font-medium '>For over 20 years, I worked in manufacturing, where I developed a strong focus on problem-solving, precision, and teamwork. That experience taught me to think systematically and pay close attention to detail, skills that now support my work in IT support and web development.</p>
 
-                    <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 mt-4 dark:text-light/75'>Why Web Development?</h2>
+                    <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 mt-4 dark:text-light/75'>Why Web Development & IT Support?</h2>
 
-                        <p className='font-medium'>Web development has always fascinated me. I love the blend of creativity and logic it requires. Designing websites that are not only visually appealing but also highly functional is something I find incredibly rewarding. The thrill of solving complex problems and optimizing site performance fuels my passion. Whether it&#39;s a sleek, modern interface or a robust, responsive application, I enjoy the challenge of bringing ideas to life on the web.</p>
+                        <p className='font-medium'>I&#39;m drawn to both web development and IT support because they allow me to solve real problems and help people through technology. Web development combines creativity and logic, I enjoy building websites that look great and work smoothly across devices. At the same time, IT support gives me the chance to assist users directly, troubleshoot issues, and keep systems running efficiently. Whether I'm designing a user-friendly interface or resolving a technical issue, I find it incredibly rewarding to create solutions that make a difference.</p>
 
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 mt-4 dark:text-light/75'>What I Offer</h2>
 
-                        <p className='font-medium'>A conscientious, collaborative, and dedicated Web & Software Development professional with expertise in HTML, CSS, JavaScript, Python, AWS, and GitHub. Experienced in building responsive websites, ensuring optimal performance, and maintaining high-quality code. Proficient in front-end web design, including creating responsive layouts. With a strong background in heavy plant operation and construction, bringing problem-solving skills, attention to detail, and a collaborative work ethic. Committed to delivering exceptional service and continuous professional development, seeking to contribute expertise to a progressive company that values growth and integrity</p>
+                        <p className='font-medium'>I&#39;m a dedicated and adaptable Web & IT Support professional with hands-on experience in HTML, CSS, JavaScript, Python, AWS, and GitHub. I build responsive, accessible websites with clean, efficient code, and have a strong understanding of version control and front-end development principles. Alongside my technical skills, I bring over 20 years of real-world problem-solving from my background in manufacturing, where attention to detail, teamwork, and reliability were key. I&#39;m committed to continuous learning and ready to contribute to a forward-thinking team that values quality, growth, and integrity.</p>
 
 
                 

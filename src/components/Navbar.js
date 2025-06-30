@@ -8,6 +8,7 @@ import useThemeSwitcher from '../components/Hooks/useThemeSwitcher';
 import Image from 'next/image';
 import AWS from '../../public/images/certificates/AWS.png';
 import Azure from '../../public/images/certificates/Azure.png';
+import Comptia from '../../public/images/certificates/Comptia.png';
 
 const CustomLink = ({href, title, className = "" }) => {
     const router = useRouter();
@@ -161,11 +162,14 @@ const NavBar = () => {
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
                 <Logo />
             </div>
-            <div className='flex items-center justify-center absolute left-[5%] top-24 w-1/12 h-auto mr-5'>
+            <div className='flex items-center justify-center absolute left-[2%] top-24 w-1/12 h-auto'>
               <Image src={AWS} alt='AWS Badge'/>
             </div>
-            <div className='items-center justify-center absolute left-[12%]  top-24 w-1/12 h-auto ml-5'>
+            <div className='items-center justify-center absolute left-[10%]  top-24 w-1/12 h-auto'>
                 <Image src={Azure} alt='Azure Badge'/>
+            </div>
+            <div className='items-center justify-center absolute left-[18%]  top-24 w-1/12 h-auto'>
+                <Image src={Comptia} alt='Comptia Badge'/>
             </div>
         </header>
     )
