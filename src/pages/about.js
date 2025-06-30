@@ -32,7 +32,7 @@ I&#39;ve recently earned certifications in CompTIA A+, AWS Cloud Practitioner, a
 
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 mt-4 dark:text-light/75'>Why Web Development & IT Support?</h2>
 
-                        <p className='font-medium'>I&#39;m drawn to both web development and IT support because they allow me to solve real problems and help people through technology. Web development combines creativity and logic, I enjoy building websites that look great and work smoothly across devices. At the same time, IT support gives me the chance to assist users directly, troubleshoot issues, and keep systems running efficiently. Whether I'm designing a user-friendly interface or resolving a technical issue, I find it incredibly rewarding to create solutions that make a difference.</p>
+                        <p className='font-medium'>I&#39;m drawn to both web development and IT support because they allow me to solve real problems and help people through technology. Web development combines creativity and logic, I enjoy building websites that look great and work smoothly across devices. At the same time, IT support gives me the chance to assist users directly, troubleshoot issues, and keep systems running efficiently. Whether I&#39;m designing a user-friendly interface or resolving a technical issue, I find it incredibly rewarding to create solutions that make a difference.</p>
 
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 mt-4 dark:text-light/75'>What I Offer</h2>
 
