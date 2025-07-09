@@ -31,7 +31,9 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText text="Transforming My Career For A Brighter Future." className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
-              <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>I&#39;ve recently discovered a strong passion for both web development and IT support, drawn to the way each combines problem-solving, technology, and user-focused thinking. I enjoy exploring the code and design that bring websites to life, as well as helping users navigate technical challenges with confidence. Whether it&#39;s building responsive digital experiences or resolving everyday IT issues, I&#39;m motivated by the opportunity to learn, improve, and make a real impact. I&#39;m committed to growing my skills in both areas as I build a meaningful career in tech.</p>
+              <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>I have developed a strong passion for technology, drawn to how it combines problem-solving, creativity, and user-focused thinking. I enjoy everything from building responsive digital experiences to helping users solve technical issues and understanding how systems stay connected behind the scenes. Whether I am working on code, troubleshooting tech problems, or learning about network infrastructure, I am driven by curiosity and the desire to grow. I am committed to building a meaningful, well-rounded career in tech.
+
+</p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/Contact Banner.pdf" target={'_blank'} className='flex items-center bg-dark text-light p-2 px-4 rounded-lg text-lg font-semibold
                  hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base'download={false}>CV Available Upon Request
